@@ -1,24 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ClotheCare - Connect Clothing Donors with People in Need</title>
-    <meta name="description" content="Join our community platform where clothing donors connect with people in need. Reduce waste, share warmth, and build stronger communities through clothing donations." />
-    <meta name="author" content="ClotheCare Community" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dress Donation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    form {
+      margin-top: 20px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      padding: 10px;
+      background-color: #f1f1f1;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
 
-    <meta property="og:title" content="ClotheCare - Connect Clothing Donors with People in Need" />
-    <meta property="og:description" content="Join our community platform where clothing donors connect with people in need. Reduce waste, share warmth, and build stronger communities." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <header>
+    <h1>Dress Donation</h1>
+    <p>Give your clothes a second life, bring smiles to others!</p>
+  </header>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  <section>
+    <h2>Donate Your Dresses</h2>
+    <p>Fill the form below to contribute your good-quality clothes.</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Type of clothes you want to donate" rows="4" required></textarea>
+      <button type="submit">Donate Now</button>
+    </form>
+  </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <footer>
+    <p>© 2025 Dress Donation Initiative</p>
+  </footer>
+
+</body>
 </html>
